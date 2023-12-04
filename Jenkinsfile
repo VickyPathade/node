@@ -10,7 +10,7 @@ pipeline {
          stage('build') {
             steps {
                 script {
-                    sh 'docker build -t vicky/notes-app .'
+                    sh 'docker build -t pavansa/notes-app .'
                 }
             }
         }
